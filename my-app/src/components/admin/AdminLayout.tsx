@@ -17,6 +17,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
     { href: '/admin/dashboard', label: 'Dashboard', icon: FiHome },
     { href: '/admin/travailleurs', label: 'Travailleurs', icon: FiUsers },
     { href: '/admin/clients', label: 'Clients', icon: FiUserCheck },
+    { href: '/admin/products', label: 'Nos Produits', icon: FiSettings },
     { href: '/admin/settings', label: 'Paramètres', icon: FiSettings },
   ]
 
